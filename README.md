@@ -1,4 +1,3 @@
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
 <h3 align="center">LSTM network in modeling EGP-USD exchange rate</h3>
@@ -6,19 +5,18 @@
   <p align="center">
     Modeling EGP-USD currency exchange rate using LSTM neural networks with data containing USD, EUR, GBP exchange rates on Jupyter Notebook.
     <br />
-    <a href="research paper link"><strong>
+    <a href="https://github.com/Mohamed-ElGemeie/LSTM-in-modeling-EGP-USD-exchange-rates/blob/main/Research%20paper.pdf"><strong>
     Research Paper</strong></a>
   </p>
 </div>
 
 
 
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      ![image](https://github.com/Mohamed-ElGemeie/LSTM-in-modeling-EGP-USD-exchange-rates/blob/main/assets/usd_pred_vs_usd.PNG?raw=true)
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -31,7 +29,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributors">Contributing</a></li>
+    <li><a href="#Contributors">Contributors</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -39,7 +37,6 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
@@ -58,7 +55,6 @@
 
 
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 The project runs through 4 phases each with their own dependencies and installments. 
@@ -69,7 +65,7 @@ The project runs through 4 phases each with their own dependencies and installme
     
     - Example: ```=GOOGLEFINANCE("CURRENCY:USDEGP","price",DATE(2003,1,12),DATE(2023,4,1),"DAILY")``` retrives the 1 USD to EGP exchange price from 2003/12/1 till 2023/4/1.
     
-    - Do the same for the Euro and Great British pound, in the following columns. Check this [Google sheet](https://docs.google.com/spreadsheets/d/1gpDPDQSPgtsBQrfgfsSrwuzg1PQKyEZ589Go3H9nJ70/edit?usp=sharing) should look something like this: ![image]("") 
+    - Do the same for the Euro and Great British pound, in the following columns. Check this [Google sheet](https://docs.google.com/spreadsheets/d/1gpDPDQSPgtsBQrfgfsSrwuzg1PQKyEZ589Go3H9nJ70/edit?usp=sharing) should look something like this: ![image]("https://github.com/Mohamed-ElGemeie/LSTM-in-modeling-EGP-USD-exchange-rates/blob/main/assets/Excel%20sheet%20example.PNG?raw=true") 
 
 - Phase 2 (Data Retrieval) Easier Alternative
     - Simply download the sheet as a .csv file from a Google sheet (File >> download >> .csv).
@@ -114,7 +110,6 @@ The following dependencies need to be installed.
 
 
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 You can change the following in this project:
 - Change the features.
@@ -149,7 +144,6 @@ Also You can use the pretrained model in the folder [ModelG]()
 
 
 
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
@@ -158,7 +152,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
-<!-- CONTACT -->
 ## Contact
 
 Mohamed Elgemeie -- [Linkedin](https://www.linkedin.com/in/mohamed-elgemeie/) -- mgalal2002@outlook.com
@@ -168,7 +161,6 @@ Project Link: https://github.com/Mohamed-ElGemeie/LSTM-in-modeling-EGP-USD-excha
 
 
 
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * Thanks to our very kind and loving doctor Amira Mofreh Ibrahim, and our teaching assistant Amr Elsayed Elazazy

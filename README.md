@@ -16,10 +16,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      ![image](https://github.com/Mohamed-ElGemeie/LSTM-in-modeling-EGP-USD-exchange-rates/blob/main/assets/usd_pred_vs_usd.PNG?raw=true)
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#built-with">Built With</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -29,7 +26,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#Contributors">Contributors</a></li>
+    <li><a href="#contributors">Contributors</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -39,7 +36,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![image](https://github.com/Mohamed-ElGemeie/LSTM-in-modeling-EGP-USD-exchange-rates/blob/main/assets/usd_pred_vs_usd.PNG?raw=true)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -65,7 +62,9 @@ The project runs through 4 phases each with their own dependencies and installme
     
     - Example: ```=GOOGLEFINANCE("CURRENCY:USDEGP","price",DATE(2003,1,12),DATE(2023,4,1),"DAILY")``` retrives the 1 USD to EGP exchange price from 2003/12/1 till 2023/4/1.
     
-    - Do the same for the Euro and Great British pound, in the following columns. Check this [Google sheet](https://docs.google.com/spreadsheets/d/1gpDPDQSPgtsBQrfgfsSrwuzg1PQKyEZ589Go3H9nJ70/edit?usp=sharing) should look something like this: ![image]("https://github.com/Mohamed-ElGemeie/LSTM-in-modeling-EGP-USD-exchange-rates/blob/main/assets/Excel%20sheet%20example.PNG?raw=true") 
+    - Do the same for the Euro and Great British pound, in the following columns. Check this [Google sheet](https://docs.google.com/spreadsheets/d/1gpDPDQSPgtsBQrfgfsSrwuzg1PQKyEZ589Go3H9nJ70/edit?usp=sharing) should look something like this: 
+![image](https://github.com/Mohamed-ElGemeie/LSTM-in-modeling-EGP-USD-exchange-rates/blob/main/assets/Excel%20sheet%20example.PNG?raw=true) 
+
 
 - Phase 2 (Data Retrieval) Easier Alternative
     - Simply download the sheet as a .csv file from a Google sheet (File >> download >> .csv).
@@ -75,18 +74,18 @@ The project runs through 4 phases each with their own dependencies and installme
 
     - Enable the Google Workspace API to access this sheet through Python check [google developers doc](https://developers.google.com/sheets/api/quickstart/python) to get started.
     
-    - Run the Notebook file [<b>Excel_sheet_importer</b>]() to get the sheet's data, and save it as a .csv file.
+    - Run the Notebook file [<b>Excel_sheet_importer</b>](https://github.com/Mohamed-ElGemeie/LSTM-in-modeling-EGP-USD-exchange-rates/blob/main/src/excel_sheet_importer.ipynb) to get the sheet's data, and save it as a .csv file.
     
 - Phase 3 (Data Cleaning)
-    - Run the Notebook file [<b>Data_Cleaning</b>]() to clean the Dataset and export it as a .csv file.
+    - Run the Notebook file [<b>Data_Cleaning</b>](https://github.com/Mohamed-ElGemeie/LSTM-in-modeling-EGP-USD-exchange-rates/blob/main/src/Data_Cleaning.ipynb) to clean the Dataset and export it as a .csv file.
 - Phase 4 (Modeling)
-    - Run the notebook [<b>USD-EGP Time series LSTM prediction</b>]() and tweak any hyperparameters if you wish.
+    - Run the notebook [<b>USD-EGP Time series LSTM prediction</b>](https://github.com/Mohamed-ElGemeie/LSTM-in-modeling-EGP-USD-exchange-rates/blob/main/src/USD-EGP%20Time%20series%20LSTM%20prediction.ipynb) and tweak any hyperparameters if you wish.
     
     
 ### Prerequisites
 
 The following dependencies need to be installed.
-* pip
+* PyPI
   ```sh
   pip install pandas
   pip install numpy
@@ -119,7 +118,7 @@ You can change the following in this project:
 <br><br>
 Some changes must be accounted for throughout the whole program.
 <br><br>
-Also You can use the pretrained model in the folder [ModelG]()
+Also You can use the pretrained model in the folder [ModelG](https://github.com/Mohamed-ElGemeie/LSTM-in-modeling-EGP-USD-exchange-rates/tree/main/src/modelG)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
